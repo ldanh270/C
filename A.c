@@ -2,6 +2,8 @@
 
 #define ll long long
 #define ld long double 
+#define ull unsigned long long
+#define uld unsigned long double
 
 const ll mod = 1e9 + 7;
 const ll oo = 1e18;
@@ -12,15 +14,7 @@ void solve() {
 }
 
 int main() {
-#ifndef ONLINE_JUDGE
-    freopen("A.inp", "r", stdin);
-    freopen("A.out", "w", stdout);
-#endif
-    ios_base::sync_with_stdio(0);
-    cin.tie(0);
-    cout.tie(0);
-
     ll tcase = 1;
-    cin >> tcase;
+    scanf("%lld", tcase);
     while (tcase--) solve();
 }
